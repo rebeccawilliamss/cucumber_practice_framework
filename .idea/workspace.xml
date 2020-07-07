@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8f85d92-7ec1-453c-baba-05174c97a968" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dB0TgbM7vRwlMq0y8y2B5uuRq1" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/features/LoginPage/login.feature" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\test\java" />
+      <recent name="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\testRunners" />
+      <recent name="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\main\resources" />
+      <recent name="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\test\java\features\quickSearch" />
+      <recent name="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\test\java\features\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: User can create an account">
+    <configuration name="Feature: local" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LocalPage/local.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: local" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\test\java\features\LoginPage\login.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LoginPage/login.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\test\java\features\LoginPage\login.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LoginPage/login.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: quickSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/QuickSearch/quickSearch.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: quickSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User can create an account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/CreateAccount/createAccount.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="NAME_FILTER" value="^User can create an account$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can create an account$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can create an account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User cannot create an account with an email address already in use" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Account/createAccount.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="NAME_FILTER" value="^User cannot create an account with an email address already in use$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User cannot create an account with an email address already in use$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User cannot create an account with an email address already in use" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Feature: local" />
+      <item itemvalue="Cucumber java.Feature: login" />
+      <item itemvalue="Cucumber java.Feature: quickSearch" />
+      <item itemvalue="Cucumber java.Scenario: User can create an account" />
+      <item itemvalue="Cucumber java.Scenario: User cannot create an account with an email address already in use" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: User can create an account" />
+        <item itemvalue="Cucumber java.Scenario: User cannot create an account with an email address already in use" />
+        <item itemvalue="Cucumber java.Feature: login" />
+        <item itemvalue="Cucumber java.Feature: quickSearch" />
+        <item itemvalue="Cucumber java.Feature: login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8f85d92-7ec1-453c-baba-05174c97a968" name="Default Changelist" comment="" />
+      <created>1591883187087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591883187087</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2295" y="93" width="1199" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594115256475">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="409" y="159" width="1199" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1592825091408" />
+    <state x="2295" y="93" width="979" height="819" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594115256475" />
+    <state x="2443" y="305" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594043176516">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2443" y="305" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594043176516" />
+    <state x="2407" y="178" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592578602555">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2407" y="178" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1592578602555" />
+    <state x="655" y="260" key="FileChooserDialogImpl" timestamp="1592825089644">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="655" y="260" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1592825089644" />
+    <state x="2493" y="265" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1592579497047" />
+    <state width="1624" height="59" key="GridCell.Tab.0.bottom" timestamp="1594117157924">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1593004700032" />
+    <state width="1624" height="59" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594117157924" />
+    <state width="1624" height="59" key="GridCell.Tab.0.center" timestamp="1594117157924">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1593004700032" />
+    <state width="1624" height="59" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594117157924" />
+    <state width="1624" height="59" key="GridCell.Tab.0.left" timestamp="1594117157924">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1593004700032" />
+    <state width="1624" height="59" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594117157924" />
+    <state width="1624" height="59" key="GridCell.Tab.0.right" timestamp="1594117157924">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1593004700032" />
+    <state width="1624" height="59" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594117157924" />
+    <state width="1624" height="329" key="GridCell.Tab.1.bottom" timestamp="1593622168729">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1624" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1593622168729" />
+    <state width="1624" height="329" key="GridCell.Tab.1.center" timestamp="1593622168729">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1624" height="329" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1593622168729" />
+    <state width="1624" height="329" key="GridCell.Tab.1.left" timestamp="1593622168729">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1624" height="329" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1593622168729" />
+    <state width="1624" height="329" key="GridCell.Tab.1.right" timestamp="1593622168729">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1624" height="329" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1593622168729" />
+    <state x="2173" y="93" key="Maven.ArtifactSearchDialog" timestamp="1594112737593">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2173" y="93" key="Maven.ArtifactSearchDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594112737593" />
+    <state x="2221" y="57" key="SettingsEditor" timestamp="1592835505441">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="344" y="56" key="SettingsEditor/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1592234579204" />
+    <state x="2221" y="57" key="SettingsEditor/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1592835505441" />
+    <state x="2379" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1594110605757">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2379" y="304" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594110605757" />
+    <state x="2231" y="195" width="1058" height="750" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592833346503">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2231" y="195" width="1058" height="750" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1592833346503" />
+    <state x="0" y="0" width="1209" height="720" maximized="true" key="dock-window-1" timestamp="1592835556899">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="0" y="0" width="1209" height="720" maximized="true" key="dock-window-1/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1592835556899" />
+    <state x="2026" y="148" key="new project wizard" timestamp="1593530982213">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2026" y="148" key="new project wizard/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1593530982213" />
+    <state x="2504" y="426" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1592492621802">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2504" y="426" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1592492621802" />
+  </component>
+</project>
