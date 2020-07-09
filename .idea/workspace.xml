@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8f85d92-7ec1-453c-baba-05174c97a968" name="Default Changelist" comment="" />
+    <list default="true" id="d8f85d92-7ec1-453c-baba-05174c97a968" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/LoginPage/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/LoginPage/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CreateAccountPage/CreateAccountSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CreateAccountPage/CreateAccountSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/LoginPage/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/LoginPage/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/CreateAccountPage/CreateAccountSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefs/CreateAccountPage/CreateAccountSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/LoginPage/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefs/LoginPage/LoginSteps.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,6 +39,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dB0TgbM7vRwlMq0y8y2B5uuRq1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,15 +63,15 @@
       <recent name="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: User can create an account">
-    <configuration name="Feature: local" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Feature: login">
+    <configuration name="Feature: createAccount" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LocalPage/local.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Account/createAccount.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberPracticeBbcWebsite" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: local" />
+      <option name="SUGGESTED_NAME" value="Feature: createAccount" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -73,6 +85,42 @@
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="C:\Users\R2Williams\IdeaProjects\CucumberPracticeBbcWebsite\src\test\java\features\LoginPage\login.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LoginPage/login.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPracticeBbcWebsite" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LoginPage/login.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberPracticeBbcWebsite" />
@@ -160,44 +208,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can create an account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/CreateAccount/createAccount.feature" />
-      <option name="GLUE" value="stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberPracticeBbcWebsite" />
-      <option name="NAME_FILTER" value="^User can create an account$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can create an account$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can create an account" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: User cannot create an account with an email address already in use" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Account/createAccount.feature" />
-      <option name="GLUE" value="stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberPracticeBbcWebsite" />
-      <option name="NAME_FILTER" value="^User cannot create an account with an email address already in use$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User cannot create an account with an email address already in use$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User cannot create an account with an email address already in use" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.main" />
@@ -207,19 +217,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: local" />
-      <item itemvalue="Cucumber java.Feature: login" />
       <item itemvalue="Cucumber java.Feature: quickSearch" />
-      <item itemvalue="Cucumber java.Scenario: User can create an account" />
-      <item itemvalue="Cucumber java.Scenario: User cannot create an account with an email address already in use" />
+      <item itemvalue="Cucumber java.Feature: createAccount" />
+      <item itemvalue="Cucumber java.Feature: login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: User can create an account" />
-        <item itemvalue="Cucumber java.Scenario: User cannot create an account with an email address already in use" />
+        <item itemvalue="Cucumber java.Feature: login" />
+        <item itemvalue="Cucumber java.Feature: createAccount" />
+        <item itemvalue="Cucumber java.Feature: login" />
         <item itemvalue="Cucumber java.Feature: login" />
         <item itemvalue="Cucumber java.Feature: quickSearch" />
-        <item itemvalue="Cucumber java.Feature: login" />
       </list>
     </recent_temporary>
   </component>
@@ -237,11 +245,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2295" y="93" width="1199" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594115256475">
+    <state x="2295" y="93" width="1199" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594300040354">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state x="409" y="159" width="1199" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1592825091408" />
-    <state x="2295" y="93" width="979" height="819" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594115256475" />
+    <state x="409" y="159" width="1199" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1594219655666" />
+    <state x="2295" y="93" width="979" height="819" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594300040354" />
     <state x="2443" y="305" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594043176516">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
@@ -255,26 +263,26 @@
     </state>
     <state x="655" y="260" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1592825089644" />
     <state x="2493" y="265" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1592579497047" />
-    <state width="1624" height="59" key="GridCell.Tab.0.bottom" timestamp="1594117157924">
+    <state width="1624" height="142" key="GridCell.Tab.0.bottom" timestamp="1594301253926">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1593004700032" />
-    <state width="1624" height="59" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594117157924" />
-    <state width="1624" height="59" key="GridCell.Tab.0.center" timestamp="1594117157924">
+    <state width="1864" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1594219773911" />
+    <state width="1624" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594301253926" />
+    <state width="1624" height="142" key="GridCell.Tab.0.center" timestamp="1594301253926">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1593004700032" />
-    <state width="1624" height="59" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594117157924" />
-    <state width="1624" height="59" key="GridCell.Tab.0.left" timestamp="1594117157924">
+    <state width="1864" height="239" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1594219773911" />
+    <state width="1624" height="142" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594301253926" />
+    <state width="1624" height="142" key="GridCell.Tab.0.left" timestamp="1594301253926">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1593004700032" />
-    <state width="1624" height="59" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594117157924" />
-    <state width="1624" height="59" key="GridCell.Tab.0.right" timestamp="1594117157924">
+    <state width="1864" height="239" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1594219773911" />
+    <state width="1624" height="142" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594301253926" />
+    <state width="1624" height="142" key="GridCell.Tab.0.right" timestamp="1594301253926">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1593004700032" />
-    <state width="1624" height="59" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594117157924" />
+    <state width="1864" height="239" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1594219773911" />
+    <state width="1624" height="142" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594301253926" />
     <state width="1624" height="329" key="GridCell.Tab.1.bottom" timestamp="1593622168729">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
@@ -300,10 +308,11 @@
     </state>
     <state x="344" y="56" key="SettingsEditor/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1592234579204" />
     <state x="2221" y="57" key="SettingsEditor/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1592835505441" />
-    <state x="2379" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1594110605757">
+    <state x="2379" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1594299279221">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state x="2379" y="304" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594110605757" />
+    <state x="525" y="299" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1594209086077" />
+    <state x="2379" y="304" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1594299279221" />
     <state x="2231" y="195" width="1058" height="750" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592833346503">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>

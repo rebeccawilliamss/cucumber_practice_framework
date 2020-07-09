@@ -20,7 +20,12 @@ public class LoginSteps {
     private By userName = By.id("user-identifier-input");
     private By passWord = By.id("password-input");
     private By signInButton = By.id("submit-button");
-    //private By newsHeading = By.cssSelector("#brand > span:nth-child(1) > svg");
+    private By signOutButton = By.cssSelector("#container > div > div > div.background.background--attenborough > div.u-background-transparent-black > div > div > div > div > nav > ul > li:nth-child(4) > a");
+    private By settingsLink = By.cssSelector("#container > div > div > div.background.background--attenborough > div.u-background-transparent-black > div > div > div > div > nav > ul > li:nth-child(2) > a");
+    private By deleteAccountLink = By.cssSelector("#app-container > div > div > div.u-margin-left.profile__overview > div.u-display-flex--tablet > div.profile__content-container.gel-layout__item.gel-1_1.gel-8_12--tablet.gel-9_12--desktop.u-padding-left-none > div > div.profile__content-limiter--wide > div > p > a");
+    private By enterPassword = By.id("password-input");
+    private By deleteAccountButton = By.cssSelector("#app-container > div > div > div.u-margin-left > div.u-display-flex--tablet > div.profile__content-container.gel-layout__item.gel-1_1.gel-8_12--tablet.gel-9_12--desktop.u-padding-left-none > div > div.profile__content-limiter > form > div.buttons > button");
+
 
     @Given("I am on the Login page")
     public void i_am_on_the_Login_page() {
@@ -32,11 +37,35 @@ public class LoginSteps {
         driver.findElement(signInLink).click();
     }
 
-    @When("I enter my username and password")
-    public void i_enter_my_Username_and_Password() {
-        driver.findElement(userName).sendKeys("rebecca.williams18@yahoo.co.uk");
-        driver.findElement(passWord).sendKeys("Jasmine11");
+    @Given("I am logged into my BBC website account")
+    public void i_am_logged_into_my_BBC_website_account() {
+        driver.get("https://account.bbc.com/account");
+        driver.manage().window().maximize();
+        driver.findElement(userName).sendKeys("becca18xx@yahoo.co.uk");
+        driver.findElement(passWord).sendKeys("Test123!?");
         driver.findElement(signInButton).click();
+        String accountUrl = driver.getCurrentUrl();
+        Assert.assertEquals("Url does not match", accountUrl, accountUrl);
+    }
+
+    @When("I enter my {string} and {string}")
+    public void i_enter_my_Username_and_Password(String username, String password) {
+        driver.findElement(userName).sendKeys(username);
+        driver.findElement(passWord).sendKeys(password);
+        driver.findElement(signInButton).click();
+    }
+
+    @When("I click the logout button")
+    public void i_click_the_logout_button() {
+        driver.findElement(signOutButton).click();
+    }
+
+    @When("I select to delete my account")
+    public void i_select_to_delete_my_account() {
+        driver.findElement(settingsLink).click();
+        driver.findElement(deleteAccountLink).click();
+        driver.findElement(enterPassword).sendKeys("Test123!?");
+        driver.findElement(deleteAccountButton).click();
     }
 
     @Then("I should be signed in and returned to the Homepage")
@@ -46,5 +75,22 @@ public class LoginSteps {
         System.out.println("Test Passed");
         driver.quit();
     }
+
+    @Then("I should be successfully logged out of my account")
+    public void i_should_be_successfully_logged_out_of_my_account() {
+        String signOutUrl = driver.getCurrentUrl();
+        Assert.assertEquals("Url does not match", signOutUrl, signOutUrl);
+        driver.quit();
+    }
+
+    @Then("my account should be successfully deleted")
+    public void my_account_should_be_successfully_deleted() {
+        String deletedAccountUrl = driver.getCurrentUrl();
+        Assert.assertEquals("Url does not match", deletedAccountUrl, deletedAccountUrl);
+        driver.quit();
+    }
+
+
+
 
 }

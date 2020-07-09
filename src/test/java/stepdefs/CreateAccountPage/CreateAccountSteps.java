@@ -11,6 +11,8 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.testng.Assert.assertEquals;
+
 public class CreateAccountSteps {
 
     WebDriver driver;
@@ -51,7 +53,6 @@ public class CreateAccountSteps {
 
         driver.findElement(yearField).clear();
         driver.findElement(yearField).sendKeys("1995");
-
         driver.findElement(continueButton).click();
 
         driver.findElement(emailField).clear();
@@ -70,6 +71,16 @@ public class CreateAccountSteps {
 
     @When("I fill out the email address field using an already registered email")
     public void i_fill_out_the_email_address_field_using_an_already_registered_email() {
+        driver.findElement(dayField).clear();
+        driver.findElement(dayField).sendKeys("19");
+
+        driver.findElement(monthField).clear();
+        driver.findElement(monthField).sendKeys("september");
+
+        driver.findElement(yearField).clear();
+        driver.findElement(yearField).sendKeys("1995");
+        driver.findElement(continueButton).click();
+
         driver.findElement(emailField).clear();
         driver.findElement(emailField).sendKeys("rebecca.williams18@yahoo.co.uk");
 
@@ -88,12 +99,14 @@ public class CreateAccountSteps {
     public void my_account_should_be_successfully_created() {
         driver.findElement(emailVerificationMessage).isDisplayed();
         System.out.println("Test passed");
+        driver.quit();
     }
 
     @Then("an error message should display")
     public void an_error_message_should_display() {
-        Assert.assertEquals("Looks like you've already registered with this email.", driver.findElement(errorMessage).getText());
+        assertEquals("Looks like you’ve already registered with this email. Want to sign in?", driver.findElement(errorMessage).getText());
         System.out.println(driver.findElement(errorMessage).getText());
+        System.out.println("Test passed");
         driver.quit();
     }
 }
