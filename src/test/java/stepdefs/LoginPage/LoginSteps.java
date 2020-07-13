@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -20,9 +21,10 @@ public class LoginSteps {
     private By userName = By.id("user-identifier-input");
     private By passWord = By.id("password-input");
     private By signInButton = By.id("submit-button");
-    private By signOutButton = By.cssSelector("#container > div > div > div.background.background--attenborough > div.u-background-transparent-black > div > div > div > div > nav > ul > li:nth-child(4) > a");
-    private By settingsLink = By.cssSelector("#container > div > div > div.background.background--attenborough > div.u-background-transparent-black > div > div > div > div > nav > ul > li:nth-child(2) > a");
-    private By deleteAccountLink = By.cssSelector("#app-container > div > div > div.u-margin-left.profile__overview > div.u-display-flex--tablet > div.profile__content-container.gel-layout__item.gel-1_1.gel-8_12--tablet.gel-9_12--desktop.u-padding-left-none > div > div.profile__content-limiter--wide > div > p > a");
+    private By yourAccountLink = By.id("idcta-link");
+    private By signOutButton = By.cssSelector(".primary-nav__items li:nth-child(4)");
+    private By settingsLink = By.cssSelector(".primary-nav__items li:nth-child(2)");
+    private By deleteAccountLink = By.linkText("//*[@id=\"app-container\"]/div/div/div[2]/div[2]/div[2]/div/div[2]/div/p/a");
     private By enterPassword = By.id("password-input");
     private By deleteAccountButton = By.cssSelector("#app-container > div > div > div.u-margin-left > div.u-display-flex--tablet > div.profile__content-container.gel-layout__item.gel-1_1.gel-8_12--tablet.gel-9_12--desktop.u-padding-left-none > div > div.profile__content-limiter > form > div.buttons > button");
 
@@ -39,11 +41,14 @@ public class LoginSteps {
 
     @Given("I am logged into my BBC website account")
     public void i_am_logged_into_my_BBC_website_account() {
-        driver.get("https://account.bbc.com/account");
+        System.setProperty("webdriver.chrome.driver",  "C:\\Users\\R2Williams\\IdeaProjects\\CucumberPracticeBbcWebsite\\src\\main\\resources\\chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.get("https://www.bbc.com/signin");
         driver.manage().window().maximize();
         driver.findElement(userName).sendKeys("becca18xx@yahoo.co.uk");
         driver.findElement(passWord).sendKeys("Test123!?");
         driver.findElement(signInButton).click();
+        driver.findElement(yourAccountLink).click();
         String accountUrl = driver.getCurrentUrl();
         Assert.assertEquals("Url does not match", accountUrl, accountUrl);
     }
@@ -57,14 +62,20 @@ public class LoginSteps {
 
     @When("I click the logout button")
     public void i_click_the_logout_button() {
-        driver.findElement(signOutButton).click();
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(signOutButton)).click();
     }
 
     @When("I select to delete my account")
     public void i_select_to_delete_my_account() {
-        driver.findElement(settingsLink).click();
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(settingsLink)).click();
+
         driver.findElement(deleteAccountLink).click();
-        driver.findElement(enterPassword).sendKeys("Test123!?");
+
+        WebDriverWait wait1 = new WebDriverWait(driver, 3);
+        wait1.until(ExpectedConditions.visibilityOfElementLocated(enterPassword)).sendKeys("Test123!?");
+
         driver.findElement(deleteAccountButton).click();
     }
 
