@@ -1,4 +1,8 @@
-package stepdefs.LoginPage;
+// Training purposes only!!
+// CHANGE PASSWORDS BEFORE TESTING OR TEST WILL NOT WORK
+// TEST is a placeholder
+
+package stepdefs.Login;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -6,7 +10,6 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -24,7 +27,7 @@ public class LoginSteps {
     private By yourAccountLink = By.id("idcta-link");
     private By signOutButton = By.cssSelector(".primary-nav__items li:nth-child(4)");
     private By settingsLink = By.cssSelector(".primary-nav__items li:nth-child(2)");
-    private By deleteAccountLink = By.linkText("//*[@id=\"app-container\"]/div/div/div[2]/div[2]/div[2]/div/div[2]/div/p/a");
+    private By deleteAccountLink = By.cssSelector("#app-container > div > div > div.u-margin-left.profile__overview > div.u-display-flex--tablet > div.profile__content-container.gel-layout__item.gel-1_1.gel-8_12--tablet.gel-9_12--desktop.u-padding-left-none > div > div.profile__content-limiter--wide > div > p > a");
     private By enterPassword = By.id("password-input");
     private By deleteAccountButton = By.cssSelector("#app-container > div > div > div.u-margin-left > div.u-display-flex--tablet > div.profile__content-container.gel-layout__item.gel-1_1.gel-8_12--tablet.gel-9_12--desktop.u-padding-left-none > div > div.profile__content-limiter > form > div.buttons > button");
 
@@ -46,7 +49,7 @@ public class LoginSteps {
         driver.get("https://www.bbc.com/signin");
         driver.manage().window().maximize();
         driver.findElement(userName).sendKeys("becca18xx@yahoo.co.uk");
-        driver.findElement(passWord).sendKeys("Test123!?");
+        driver.findElement(passWord).sendKeys("TEST");
         driver.findElement(signInButton).click();
         driver.findElement(yourAccountLink).click();
         String accountUrl = driver.getCurrentUrl();
@@ -74,7 +77,7 @@ public class LoginSteps {
         driver.findElement(deleteAccountLink).click();
 
         WebDriverWait wait1 = new WebDriverWait(driver, 3);
-        wait1.until(ExpectedConditions.visibilityOfElementLocated(enterPassword)).sendKeys("Test123!?");
+        wait1.until(ExpectedConditions.visibilityOfElementLocated(enterPassword)).sendKeys("TEST");
 
         driver.findElement(deleteAccountButton).click();
     }

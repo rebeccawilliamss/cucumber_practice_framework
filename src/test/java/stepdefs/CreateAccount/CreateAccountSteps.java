@@ -1,4 +1,8 @@
-package stepdefs.CreateAccountPage;
+// Training purposes only!!
+// CHANGE PASSWORDS BEFORE TESTING OR TEST WILL NOT WORK
+// TEST is a placeholder
+
+package stepdefs.CreateAccount;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,7 +11,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
@@ -58,10 +61,10 @@ public class CreateAccountSteps {
         driver.findElement(emailField).clear();
         driver.findElement(emailField).sendKeys("becca18xx@yahoo.co.uk");
 
-        driver.findElement(passwordField).sendKeys("Test123!?");
+        driver.findElement(passwordField).sendKeys("TEST");
 
         driver.findElement(postCodeField).clear();
-        driver.findElement(postCodeField).sendKeys("SP10 3WF");
+        driver.findElement(postCodeField).sendKeys("TEST");
 
         Select gender = new Select(driver.findElement(genderDropDownMenu));
         gender.selectByValue("female");
@@ -84,10 +87,10 @@ public class CreateAccountSteps {
         driver.findElement(emailField).clear();
         driver.findElement(emailField).sendKeys("rebecca.williams18@yahoo.co.uk");
 
-        driver.findElement(passwordField).sendKeys("Test123!?");
+        driver.findElement(passwordField).sendKeys("TEST");
 
         driver.findElement(postCodeField).clear();
-        driver.findElement(postCodeField).sendKeys("SP10 3WF");
+        driver.findElement(postCodeField).sendKeys("TEST");
 
         Select gender = new Select(driver.findElement(genderDropDownMenu));
         gender.selectByValue("female");

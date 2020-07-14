@@ -1,3 +1,7 @@
+#// Training purposes only!!
+#// CHANGE PASSWORDS BEFORE TESTING OR TEST WILL NOT WORK
+#// TEST is a placeholder
+
 Feature: Sign in functionality for the BBC website
 
   As a BBC website user
@@ -12,8 +16,8 @@ Feature: Sign in functionality for the BBC website
 
     Examples:
     | username                         | password    |
-    | "rebecca.williams18@yahoo.co.uk" | "Jasmine11" |
-    | "becca18xx@yahoo.co.uk"          | "Test123!?" |
+    | "rebecca.williams18@yahoo.co.uk" | "TEST" |
+    | "becca18xx@yahoo.co.uk"          | "TEST" |
 
   @logout
   Scenario: User can logout of their account
@@ -21,7 +25,7 @@ Feature: Sign in functionality for the BBC website
     When I click the logout button
     Then I should be successfully logged out of my account
 
-
+  @Delete
   Scenario: User can delete their account
     Given I am logged into my BBC website account
     When I select to delete my account
