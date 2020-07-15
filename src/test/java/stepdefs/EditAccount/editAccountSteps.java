@@ -9,9 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -66,27 +64,30 @@ public class editAccountSteps {
         driver.findElement(signInButton).click();
     }
 
-//    @When("I edit my display name in the Name field")
-//    public void i_edit_my_display_name_in_the_Name_field() {
-//        driver.findElement(nameEditButton).click();
-//        driver.findElement(nameField).clear();
-//        driver.findElement(nameField).sendKeys("Rebecca");
-//        driver.findElement(saveAndContinueButton).submit();
-//    }
-//
-//    @When("I edit my password in the Password field")
-//    public void i_edit_my_password_in_the_Password_field() {
-//        WebDriverWait wait = new WebDriverWait(driver, 3);
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(passwordEditButton)).click();
-//
-//        driver.findElement(currentPasswordField).sendKeys("Jasmine11!");
-//        driver.findElement(newPasswordField).sendKeys("");
-//        driver.findElement(saveAndContinueButton).submit();
-//    }
+    @When("I edit my display name in the Name field")
+    public void i_edit_my_display_name_in_the_Name_field() {
+        WebDriverWait wait = new WebDriverWait(driver, 3);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(nameEditButton)).click();
+
+        driver.findElement(nameField).clear();
+        driver.findElement(nameField).sendKeys("Rebecca");
+        driver.findElement(saveAndContinueButton).submit();
+    }
+
+    @When("I edit my password in the Password field")
+    public void i_edit_my_password_in_the_Password_field() {
+        WebDriverWait wait = new WebDriverWait(driver, 3);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(passwordEditButton)).click();
+
+        driver.findElement(currentPasswordField).sendKeys("Jasmine11!");
+        driver.findElement(newPasswordField).sendKeys("");
+        driver.findElement(saveAndContinueButton).submit();
+    }
 
     @When("I edit my gender in the gender drop down menu")
     public void i_edit_my_gender_in_the_gender_drop_down_menu() {
-        driver.findElement(genderEditButton).click();
+        WebDriverWait wait1 = new WebDriverWait(driver, 3);
+        wait1.until(ExpectedConditions.visibilityOfElementLocated(genderEditButton)).click();
 
         WebDriverWait wait = new WebDriverWait(driver, 3);
         wait.until(ExpectedConditions.visibilityOfElementLocated(genderInput));
@@ -113,23 +114,23 @@ public class editAccountSteps {
         Assert.assertEquals("URL does not match", accountSettingsUrl, accountSettingsUrl);
     }
 
-//    @Then("my display name should be updated")
-//    public void my_display_name_should_be_updated() {
-//        WebDriverWait wait = new WebDriverWait(driver, 5);
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(successfulChangeMessage)).isDisplayed();
-//
-//        System.out.println("Test passed");
-//        driver.quit();
-//    }
-//
-//    @Then("my password should be updated")
-//    public void my_password_should_be_updated() {
-//        WebDriverWait wait = new WebDriverWait(driver, 5);
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(successfulChangeMessage)).isDisplayed();
-//
-//        System.out.println("Test passed");
-//        driver.quit();
-//    }
+    @Then("my display name should be updated")
+    public void my_display_name_should_be_updated() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(successfulChangeMessage)).isDisplayed();
+
+        System.out.println("Test passed");
+        driver.quit();
+    }
+
+    @Then("my password should be updated")
+    public void my_password_should_be_updated() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(successfulChangeMessage)).isDisplayed();
+
+        System.out.println("Test passed");
+        driver.quit();
+    }
 
     @Then("my gender should be updated")
     public void my_gender_should_be_updated() {

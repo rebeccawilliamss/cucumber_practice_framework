@@ -10,18 +10,18 @@ Feature: Editing an account
     Then I should be successfully signed into my account
     And I should be able to view my account information
 
-#  Scenario: User can edit their display name
-#    Given I am on my account page
-#    When I edit my display name in the Name field
-#    Then my display name should be updated
+  Scenario: User can edit their display name
+    Given I am on my account page
+    When I edit my display name in the Name field
+    Then my display name should be updated
 
   Scenario: User can edit their gender
     Given I am on my account page
     When I edit my gender in the gender drop down menu
     Then my gender should be updated
 
-#  Scenario: User can edit their password
-#    Given I am on my account page
-#    When I edit my password in the Password field
-#    Then my password should be updated
+  Scenario: User can edit their password
+    Given I am on my account page
+    When I edit my password in the Password field
+    Then my password should be updated
 
