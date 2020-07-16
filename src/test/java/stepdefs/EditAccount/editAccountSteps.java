@@ -58,9 +58,9 @@ public class editAccountSteps {
         driver.findElement(signInLink).click();
 
         WebDriverWait wait = new WebDriverWait(driver, 3);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(username)).sendKeys("rebecca.williams18@yahoo.co.uk");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(username)).sendKeys("TEST");
 
-        driver.findElement(password).sendKeys("Jasmine11");
+        driver.findElement(password).sendKeys("TEST");
         driver.findElement(signInButton).click();
     }
 
@@ -79,8 +79,8 @@ public class editAccountSteps {
         WebDriverWait wait = new WebDriverWait(driver, 3);
         wait.until(ExpectedConditions.visibilityOfElementLocated(passwordEditButton)).click();
 
-        driver.findElement(currentPasswordField).sendKeys("Jasmine11!");
-        driver.findElement(newPasswordField).sendKeys("");
+        driver.findElement(currentPasswordField).sendKeys("TEST");
+        driver.findElement(newPasswordField).sendKeys("TEST");
         driver.findElement(saveAndContinueButton).submit();
     }
 
@@ -137,8 +137,7 @@ public class editAccountSteps {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(successfulChangeMessage)).isDisplayed();
 
-       System.out.println("Test passed");
-       driver.quit();
+        System.out.println("Test passed");
+        driver.quit();
     }
-
 }
